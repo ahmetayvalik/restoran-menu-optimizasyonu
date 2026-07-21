@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+backend/.venv/
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
+
+# Build / generated outputs
+outputs/
+*.log
+
+# Data exports and reports generated locally
+docs/reports/*.tmp
+
+# Large model artifacts
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt
+*.safetensors
+
+# Jupyter
+.ipynb_checkpoints/
